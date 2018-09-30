@@ -1,0 +1,21 @@
+Package: jrRssprogramming
+Type: Package
+Title: Jumping Rivers: Package for the RSS programming course
+Version: 0.0.1
+Authors@R: person("Jamie", "Owen",
+     email="jamie@jumpingrivers.com", role = c("aut",
+     "cre"))
+Description: A package for the RSS programming course run by Jumping
+  Rivers.
+URL: http://www.jumpingrivers.com/
+License: GPL-3
+Depends: R (>= 3.2.0)
+Imports: ggplot2movies, dplyr, jrData, rbenchmark
+Suggests: knitr, tufte, rmarkdown, formatR, readr
+Remotes: jr-packages/jrData
+VignetteBuilder: knitr
+RoxygenNote: 6.1.0
+NeedsCompilation: no
+Packaged: 2018-09-19 12:00:19 UTC; jamie
+Author: Jamie Owen [aut, cre]
+Maintainer: Jamie Owen <jamie@jumpingrivers.com>
