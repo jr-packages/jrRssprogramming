@@ -58,7 +58,7 @@ install.packages("drat")
 \noindent Then install the course R package via
 
 <<eval=FALSE, tidy=FALSE>>=
-drat::addRepo("rcourses")
+drat::addRepo("jr-packages")
 install.packages("jrRssprogramming")
 @
 
